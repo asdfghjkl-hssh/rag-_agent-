@@ -1,0 +1,9 @@
+# 导入日志对象
+from logger import logger
+
+# 打印不同级别的日志
+logger.debug("调试信息：代码执行细节")
+logger.info("普通信息：程序运行状态")
+logger.warning("警告信息：潜在问题")
+logger.error("错误信息：功能异常")
+logger.critical("严重错误：程序崩溃")
